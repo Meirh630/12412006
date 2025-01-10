@@ -19,10 +19,12 @@ roslaunch astar_path_planner astar_planner.launch
 
 ## 第三方库
 osqp（安装需要指定版本以免报错），OsqpEigen
+
 git clone --recursive -b release-0.6.3 https://github.com/oxfordcontrol/osqp.git
 cd osqp
 mkdir build && cd build
 cmake .. 
 make
-sudo make install                        
+sudo make install
+
 参考原文链接：https://blog.csdn.net/tugepaopaoo/article/details/131178584
